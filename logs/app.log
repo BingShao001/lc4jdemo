@@ -1,0 +1,838 @@
+2025-04-30 01:47:31.253 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 03:41:18.824 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 05:34:49.308 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 06:23:27.302 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 07:07:32.959 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 08:23:36.124 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 09:41:15.260 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 09:56:15.048 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 10:06:23.366 [http-nio-8080-exec-9] INFO  c.l.lc4jdemo.controller.AIController - "生成5条消息"
+2025-04-30 10:06:29.417 [http-nio-8080-exec-10] INFO  c.l.lc4jdemo.controller.AIController - "生成15条消息"
+2025-04-30 10:07:11.805 [http-nio-8080-exec-10] INFO  c.l.lc4jdemo.controller.AIController - [
+    {"msg_type": 2, "msg": "你猜我现在在做什么？"},
+    {"msg_type": 2, "msg": "今晚只有我和床知道秘密，你想来一起探个究竟吗？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能暴露秘密，想不想来场‘内衣测试’，看看我今天是什么状态？"},
+    {"msg_type": 2, "msg": "我指尖还留着香水味，要不要过来闻闻？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "我刚才脱下的，不过现在你想象一下给我戴上会怎样？"},
+    {"msg_type": 2, "msg": "你猜我到底是没穿，还是故意只穿了一点点？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "迈开腿，尝尝我的草莓是什么感觉？"},
+    {"msg_type": 2, "msg": "老公的车座底下出现一条超性感蕾丝内裤……"},
+    {"msg_type": 2, "msg": "我刚准备洗澡，要不要在线上陪我聊到我泡泡满出来？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "我刚才脱下的，不过现在你想象一下给我戴上会怎样？"},
+    {"msg_type": 2, "msg": "你猜我到底是没穿，还是故意只穿了一点点？"}
+]
+2025-04-30 10:07:11.805 [http-nio-8080-exec-9] INFO  c.l.lc4jdemo.controller.AIController - [
+    {"msg_type": 2, "msg": "你猜我现在在想什么？"},
+    {"msg_type": 2, "msg": "今晚只有我和床知道秘密，你想来一起探个究竟吗？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能暴露秘密，想不想来场‘内衣测试’，看看我今天是什么状态？"},
+    {"msg_type": 2, "msg": "我指尖还留着香水味，要不要过来闻闻？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "迈开腿，尝尝我的草莓是什么感觉？"},
+    {"msg_type": 2, "msg": "老公的车座底下出现一条超性感蕾丝内裤……"},
+    {"msg_type": 2, "msg": "我刚准备洗澡，要不要在线上陪我聊到我泡泡满出来？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "我刚才脱下的，不过现在你想象一下给你戴上会怎样？"},
+    {"msg_type": 2, "msg": "你猜我到底是没穿，还是故意只穿了一点点？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "今晚只有我和床知道秘密，你想来一起探个究竟吗？"},
+    {"msg_type": 2, "msg": "迈开腿，尝尝我的草莓是什么感觉？"}
+]
+2025-04-30 10:11:15.136 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 10:14:10.332 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-30 10:14:10.346 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-30 10:14:15.118 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 70507 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 10:14:15.120 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 10:14:16.178 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 10:14:16.193 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 10:14:16.196 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 10:14:16.196 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 10:14:16.285 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 10:14:16.288 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1123 ms
+2025-04-30 10:14:44.734 [main] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 10:14:48.065 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-30 10:14:48.086 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-30 10:14:48.098 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Started Lc4jdemoApplication in 33.351 seconds (process running for 34.043)
+2025-04-30 10:14:48.102 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 10:29:48.477 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 10:44:48.451 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 10:44:49.404 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-30 10:44:49.405 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-30 10:44:49.418 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2025-04-30 10:44:49.554 [http-nio-8080-exec-1] INFO  c.l.lc4jdemo.controller.AIController - "生成5条消息"
+2025-04-30 10:47:09.052 [http-nio-8080-exec-1] INFO  c.l.lc4jdemo.controller.AIController - [
+    {"msg_type": 2, "msg": "迈开腿，尝尝我的草莓是什么感觉？"},
+    {"msg_type": 2, "msg": "今晚只有我和床知道秘密，你想来一起探个究竟吗？"},
+    {"msg_type": 2, "msg": "我指尖还留着香水味，要不要过来闻闻？"},
+    {"msg_type": 2, "msg": "老公的车座底下出现一条超性感蕾丝内裤……"},
+    {"msg_type": 2, "msg": "健身后，汗水还没擦干，你想不想试试看有多粘？"}
+]
+2025-04-30 10:51:36.496 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-30 10:51:36.511 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-30 10:51:43.226 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 75329 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 10:51:43.229 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 10:51:44.275 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 10:51:44.290 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 10:51:44.292 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 10:51:44.292 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 10:51:44.367 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 10:51:44.368 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
+2025-04-30 10:51:50.947 [main] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 10:51:54.421 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-30 10:51:54.445 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-30 10:51:54.458 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Started Lc4jdemoApplication in 11.616 seconds (process running for 12.319)
+2025-04-30 10:51:54.463 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 10:52:30.527 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-30 10:52:30.528 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-30 10:52:30.529 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-30 10:52:30.583 [http-nio-8080-exec-1] INFO  c.l.lc4jdemo.controller.AIController - "生成50条消息"
+2025-04-30 10:53:11.621 [http-nio-8080-exec-1] INFO  c.l.lc4jdemo.controller.AIController - [
+    {"msg_type": 2, "msg": "迈开腿，尝尝我的草莓是什么感觉？"},
+    {"msg_type": 2, "msg": "今晚只有我和床知道秘密，你想来一起探个究竟吗？"},
+    {"msg_type": 2, "msg": "我指尖还留着香水味，要不要过来闻闻？"},
+    {"msg_type": 2, "msg": "老公的车座底下出现一条超性感蕾丝内裤……"},
+    {"msg_type": 2, "msg": "我刚准备洗澡，要不要在线上陪我聊到我泡泡满出来？"},
+    {"msg_type": 2, "msg": "我刚才脱下的，不过现在你想象一下给你戴上会怎样？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "你猜我到底是没穿，还是故意只穿了一点点？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "今晚的月光很美，你来吗？"},
+    {"msg_type": 2, "msg": "你的味道还留在我的唇上，要不要再来一次？"},
+    {"msg_type": 2, "msg": "我刚买的巧克力，要不要尝一块？"},
+    {"msg_type": 2, "msg": "你最近是不是胖了？摸起来好软！"},
+    {"msg_type": 2, "msg": "我今天穿的这条裙子，你是喜欢领口开的还是腰带紧的？"},
+    {"msg_type": 1, "msg": "听说吻痕是最高级的纹身，你有兴趣吗？"},
+    {"msg_type": 2, "msg": "我刚买的巧克力，要不要尝一块？"},
+    {"msg_type": 2, "msg": "你的味道还留在我的唇上，要不要再来一次？"},
+    {"msg_type": 2, "msg": "今晚的月光很美，你来吗？"},
+    {"msg_type": 2, "msg": "我指尖还留着香水味，要不要过来闻闻？"},
+    {"msg_type": 2, "msg": "老公的车座底下出现一条超性感蕾丝内裤……"},
+    {"msg_type": 2, "msg": "我刚准备洗澡，要不要在线上陪我聊到我泡泡满出来？"},
+    {"msg_type": 2, "msg": "我刚才脱下的，不过现在你想象一下给你戴上会怎样？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "你猜我到底是没穿，还是故意只穿了一点点？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "迈开腿，尝尝我的草莓是什么感觉？"},
+    {"msg_type": 2, "msg": "今晚只有我和床知道秘密，你想来一起探个究竟吗？"},
+    {"msg_type": 2, "msg": "我指尖还留着香水味，要不要过来闻闻？"},
+    {"msg_type": 2, "msg": "老公的车座底下出现一条超性感蕾丝内裤……"},
+    {"msg_type": 2, "msg": "我刚准备洗澡，要不要在线上陪我聊到我泡泡满出来？"},
+    {"msg_type": 2, "msg": "我刚才脱下的，不过现在你想象一下给你戴上会怎样？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "你猜我到底是没穿，还是故意只穿了一点点？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "今晚的月光很美，你来吗？"},
+    {"msg_type": 2, "msg": "你的味道还留在我的唇上，要不要再来一次？"},
+    {"msg_type": 2, "msg": "我刚买的巧克力，要不要尝一块？"},
+    {"msg_type": 2, "msg": "你最近是不是胖了？摸起来好软！"},
+    {"msg_type": 2, "msg": "我今天穿的这条裙子，你是喜欢领口开的还是腰带紧的？"},
+    {"msg_type": 1, "msg": "听说吻痕是最高级的纹身，你有兴趣吗？"}
+}
+2025-04-30 11:06:54.441 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 11:15:20.876 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 78288 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 11:15:20.880 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 11:15:22.168 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 11:15:22.185 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 11:15:22.188 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 11:15:22.189 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 11:15:22.275 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 11:15:22.276 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1336 ms
+2025-04-30 11:15:51.399 [main] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 11:15:54.749 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-30 11:15:54.769 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-30 11:15:54.781 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Started Lc4jdemoApplication in 34.386 seconds (process running for 35.23)
+2025-04-30 11:15:54.787 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 11:17:06.049 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-30 11:17:06.049 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-30 11:17:06.050 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-30 11:17:06.092 [http-nio-8080-exec-1] INFO  c.l.lc4jdemo.controller.AIController - "生成50条消息"
+2025-04-30 11:17:53.719 [http-nio-8080-exec-1] INFO  c.l.lc4jdemo.controller.AIController - ```json
+[
+    {"msg_type": 2, "msg": "迈开腿，尝尝我的草莓是什么感觉？"},
+    {"msg_type": 2, "msg": "今晚只有我和床知道秘密，你想来一起探个究竟吗？"},
+    {"msg_type": 2, "msg": "我指尖还留着香水味，要不要过来闻闻？"},
+    {"msg_type": 2, "msg": "老公的车座底下出现一条超性感蕾丝内裤……"},
+    {"msg_type": 2, "msg": "我刚准备洗澡，要不要在线上陪我聊到我泡泡满出来？"},
+    {"msg_type": 2, "msg": "我刚才脱下的，不过现在你想象一下给你戴上会怎样？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "你猜我到底是没穿，还是故意只穿了一点点？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你猜我现在是穿得少还是故意让你看不清楚？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"}
+]
+</think>
+
+看起来你提供了一个包含多种类型的消息列表，其中大部分是重复的健身和性格测试相关的消息。如果你有具体的问题或需要帮助，请告诉我，我会尽力为你解答！
+2025-04-30 12:30:13.000 [http-nio-8080-exec-4] INFO  c.l.lc4jdemo.controller.AIController - "生成50条消息"
+2025-04-30 12:31:13.170 [http-nio-8080-exec-4] INFO  c.l.lc4jdemo.controller.AIController - [
+    {"msg_type": 2, "msg": "迈开腿，尝尝我的草莓是什么感觉？"},
+    {"msg_type": 2, "msg": "今晚只有我和床知道秘密，你想来一起探个究竟吗？"},
+    {"msg_type": 2, "msg": "我指尖还留着香水味，要不要过来闻闻？"},
+    {"msg_type": 2, "msg": "老公的车座底下出现一条超性感蕾丝内裤……"},
+    {"msg_type": 2, "msg": "我刚准备洗澡，要不要在线上陪我聊到我泡泡满出来？"},
+    {"msg_type": 2, "msg": "我刚才脱下的，不过现在你想象一下给你戴上会怎样？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "你猜我到底是没穿，还是故意只穿了一点点？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你的手心还留着我的温度，要不要再续一秒？"},
+    {"msg_type": 2, "msg": "我刚买的口红颜色很特别，要不要试试看？"},
+    {"msg_type": 2, "msg": "你最近有在健身吗？汗水的味道是不是很好闻？"},
+    {"msg_type": 2, "msg": "我刚洗完澡，头发还湿着，要不要来摸一摸？"},
+    {"msg_type": 2, "msg": "你的呼吸好香，要不要靠近一点？"},
+    {"msg_type": 2, "msg": "我刚买的内衣很性感，要不要看看？"},
+    {"msg_type": 2, "msg": "你最近有在用什么香水吗？味道很好闻。"},
+    {"msg_type": 2, "msg": "你的手好温暖，要不要握一下？"},
+    {"msg_type": 2, "msg": "我刚买的袜子很舒服，要不要试试看？"},
+    {"msg_type": 2, "msg": "你最近有在用什么护肤品吗？皮肤看起来很好。"},
+    {"msg_type": 2, "msg": "你的声音好好听，要不要再讲一会儿？"},
+    {"msg_type": 2, "msg": "我刚买的包包很时尚，要不要看看？"},
+    {"msg_type": 2, "msg": "你最近有在吃什么好吃的吗？分享一下。"},
+    {"msg_type": 2, "msg": "你的笑容好迷人，要不要多笑一会儿？"},
+    {"msg_type": 2, "msg": "我刚买的鞋子很舒服，要不要试试看？"},
+    {"msg_type": 2, "msg": "你最近有在用什么化妆品吗？看起来很自然。"},
+    {"msg_type": 2, "msg": "你的手好柔软，要不要握一下？"},
+    {"msg_type": 2, "msg": "我刚买的项链很好看，要不要看看？"},
+    {"msg_type": 2, "msg": "你最近有在听什么歌吗？分享一首。"},
+    {"msg_type": 2, "msg": "你的气质好好，要不要多聊一会儿？"},
+    {"msg_type": 2, "msg": "我刚买的包包很时尚，要不要看看？"},
+    {"msg_type": 2, "msg": "你最近有在用什么护肤品吗？皮肤看起来很好。"},
+    {"msg_type": 2, "msg": "你的手好温暖，要不要握一下？"},
+    {"msg_type": 2, "msg": "我刚买的袜子很舒服，要不要试试看？"},
+    {"msg_type": 2, "msg": "你最近有在用什么香水吗？味道很好闻。"},
+    {"msg_type": 2, "msg": "你的呼吸好香，要不要靠近一点？"},
+    {"msg_type": 2, "msg": "我刚洗完澡，头发还湿着，要不要来摸一摸？"},
+    {"msg_type": 2, "msg": "你最近有在健身吗？汗水的味道是不是很好闻？"},
+    {"msg_type": 2, "msg": "你的手心还留着我的温度，要不要再续一秒？"},
+    {"msg_type": 2, "msg": "我刚买的口红颜色很特别，要不要试试看？"},
+    {"msg_type": 2, "msg": "你最近有在用什么护肤品吗？皮肤看起来很好。"},
+    {"msg_type": 2, "msg": "你的声音好好听，要不要再讲一会儿？"},
+    {"msg_type": 2, "msg": "我刚买的包包很时尚，要不要看看？"},
+    {"msg_type": 2, "msg": "你最近有在用什么化妆品吗？看起来很自然。"},
+    {"msg_type": 2, "msg": "你的笑容好迷人，要不要多笑一会儿？"}
+]
+2025-04-30 12:31:39.020 [http-nio-8080-exec-6] INFO  c.l.lc4jdemo.controller.AIController - "生成20条消息"
+2025-04-30 12:32:05.971 [http-nio-8080-exec-6] INFO  c.l.lc4jdemo.controller.AIController - ```json
+[
+    {"msg_type": 2, "msg": "迈开腿，尝尝我的草莓是什么感觉？"},
+    {"msg_type": 2, "msg": "今晚只有我和床知道秘密，你想来一起探个究竟吗？"},
+    {"msg_type": 2, "msg": "我指尖还留着香水味，要不要过来闻闻？"},
+    {"msg_type": 2, "msg": "老公的车座底下出现一条超性感蕾丝内裤……"},
+    {"msg_type": 2, "msg": "我刚准备洗澡，要不要在线上陪我聊到我泡泡满出来？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "我刚才脱下的，不过现在你想象一下给你戴上会怎样？"},
+    {"msg_type": 2, "msg": "你猜我到底是没穿，还是故意只穿了一点点？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "今晚的月光好美，想和你一起赏月吗？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能测性格，想来测试一下吗？"},
+    {"msg_type": 2, "msg": "你的味道真香，是不是用了什么特别的香水？"},
+    {"msg_type": 2, "msg": "你今天看起来特别迷人，要不要一起喝杯咖啡？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能测性格，想来测试一下吗？"},
+    {"msg_type": 2, "msg": "你的笑容真好看，能不能多对我笑一笑？"},
+    {"msg_type": 2, "msg": "你今天看起来特别迷人，要不要一起喝杯咖啡？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能测性格，想来测试一下吗？"},
+    {"msg_type": 2, "msg": "你的味道真香，是不是用了什么特别的香水？"},
+    {"msg_type": 2, "msg": "今晚的月光好美，想和你一起赏月吗？"}
+]
+```
+2025-04-30 12:34:36.519 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 13:24:18.627 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 13:39:18.909 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 13:47:05.332 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 85192 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 13:47:05.334 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 13:47:06.349 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 13:47:06.362 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 13:47:06.364 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 13:47:06.364 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 13:47:06.430 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 13:47:06.431 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1054 ms
+2025-04-30 13:47:35.804 [main] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 13:47:38.664 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+2025-04-30 13:47:38.667 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-30 13:47:38.685 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-30 13:47:38.705 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.lc.lc4jdemo.Lc4jdemoApplication.main(Lc4jdemoApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'msgPoolRagChain' is expected to be of type 'com.lc.lc4jdemo.config.ThinkCleanedConversationalChain' but was actually of type 'com.lc.lc4jdemo.config.MarkdownJsonCleanConversationalChain'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:424)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:405)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:468)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:606)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:577)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:739)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:272)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:369)
+	... 19 common frames omitted
+2025-04-30 13:48:12.743 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 85337 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 13:48:12.746 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 13:48:13.650 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 13:48:13.663 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 13:48:13.666 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 13:48:13.666 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 13:48:13.748 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 13:48:13.749 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 956 ms
+2025-04-30 13:48:20.142 [main] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 13:48:23.399 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-30 13:48:23.416 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-30 13:48:23.425 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Started Lc4jdemoApplication in 11.06 seconds (process running for 11.639)
+2025-04-30 13:48:23.429 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 13:48:51.824 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-30 13:48:51.824 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-30 13:48:51.826 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-30 13:48:51.869 [http-nio-8080-exec-1] INFO  c.l.lc4jdemo.controller.AIController - "生成20条消息"
+2025-04-30 13:49:14.577 [http-nio-8080-exec-1] INFO  c.l.lc4jdemo.controller.AIController - [
+    {"msg_type": 2, "msg": "迈开腿，尝尝我的草莓是什么感觉？"},
+    {"msg_type": 2, "msg": "今晚只有我和床知道秘密，你想来一起探个究竟吗？"},
+    {"msg_type": 2, "msg": "我指尖还留着香水味，要不要过来闻闻？"},
+    {"msg_type": 2, "msg": "老公的车座底下出现一条超性感蕾丝内裤……"},
+    {"msg_type": 2, "msg": "我刚准备洗澡，要不要在线上陪我聊到我泡泡满出来？"},
+    {"msg_type": 2, "msg": "如果现在能穿越，你最想在哪个房间遇见我？"},
+    {"msg_type": 2, "msg": "我刚才脱下的，不过现在你想象一下给你戴上会怎样？"},
+    {"msg_type": 2, "msg": "你猜我到底是没穿，还是故意只穿了一点点？"},
+    {"msg_type": 2, "msg": "刚健身完，汗水还没擦干，你想不想试试看有多粘？"},
+    {"msg_type": 1, "msg": "听说穿错内裤能泄露性格，想不想来场‘性格测试’，验证下我到底有多迷人？"},
+    {"msg_type": 2, "msg": "你今天穿得真性感，要不要让我猜猜看你的小心思？"},
+    {"msg_type": 1, "msg": "听说最近流行用表情包聊天，不知道你会不会害羞呢？"},
+    {"msg_type": 2, "msg": "我刚洗完澡，头发还湿着，你要不要来帮我擦干？"},
+    {"msg_type": 1, "msg": "今天天气不错，适合出去约会，不知道你有没有空？"},
+    {"msg_type": 2, "msg": "你最近是不是瘦了？要不要让我摸摸看你的腰？"},
+    {"msg_type": 1, "msg": "听说你最近在学做饭，不知道做的菜会不会和人一样香？"},
+    {"msg_type": 2, "msg": "我今天穿的这条裙子很特别，你要不要来猜猜看是什么材质？"},
+    {"msg_type": 1, "msg": "你知道吗？你的笑容比阳光还要温暖，让人忍不住想靠近。"},
+    {"msg_type": 2, "msg": "你今天的样子让我有点心动，要不要一起去看电影？"},
+    {"msg_type": 1, "msg": "听说最近流行用表情包聊天，不知道你会不会害羞呢？"}
+]
+2025-04-30 13:54:22.071 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-30 13:54:22.085 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-30 14:07:49.163 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 88928 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 14:07:49.166 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 14:07:50.373 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 14:07:50.390 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 14:07:50.393 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 14:07:50.393 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 14:07:50.466 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 14:07:50.468 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1255 ms
+2025-04-30 14:07:51.865 [main] WARN  dev.langchain4j.internal.RetryUtils - Exception was thrown on attempt 1 of 3
+java.lang.RuntimeException: status code: 502; body: 
+	at dev.langchain4j.model.ollama.OllamaClient.toException(OllamaClient.java:275)
+	at dev.langchain4j.model.ollama.OllamaClient.embed(OllamaClient.java:210)
+	at dev.langchain4j.model.ollama.OllamaEmbeddingModel.lambda$embedAll$0(OllamaEmbeddingModel.java:64)
+	at dev.langchain4j.internal.RetryUtils$RetryPolicy.withRetry(RetryUtils.java:192)
+	at dev.langchain4j.internal.RetryUtils.withRetry(RetryUtils.java:229)
+	at dev.langchain4j.model.ollama.OllamaEmbeddingModel.embedAll(OllamaEmbeddingModel.java:64)
+	at dev.langchain4j.model.embedding.EmbeddingModel.embed(EmbeddingModel.java:34)
+	at dev.langchain4j.model.embedding.EmbeddingModel.embed(EmbeddingModel.java:24)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig.faqRagChain(FaqRagConfig.java:47)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig$$SpringCGLIB$$0.CGLIB$faqRagChain$0(<generated>)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:393)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig$$SpringCGLIB$$0.faqRagChain(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:468)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:606)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:577)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:739)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:272)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:369)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.lc.lc4jdemo.Lc4jdemoApplication.main(Lc4jdemoApplication.java:12)
+2025-04-30 14:07:52.597 [main] WARN  dev.langchain4j.internal.RetryUtils - Exception was thrown on attempt 2 of 3
+java.lang.RuntimeException: status code: 502; body: 
+	at dev.langchain4j.model.ollama.OllamaClient.toException(OllamaClient.java:275)
+	at dev.langchain4j.model.ollama.OllamaClient.embed(OllamaClient.java:210)
+	at dev.langchain4j.model.ollama.OllamaEmbeddingModel.lambda$embedAll$0(OllamaEmbeddingModel.java:64)
+	at dev.langchain4j.internal.RetryUtils$RetryPolicy.withRetry(RetryUtils.java:192)
+	at dev.langchain4j.internal.RetryUtils.withRetry(RetryUtils.java:229)
+	at dev.langchain4j.model.ollama.OllamaEmbeddingModel.embedAll(OllamaEmbeddingModel.java:64)
+	at dev.langchain4j.model.embedding.EmbeddingModel.embed(EmbeddingModel.java:34)
+	at dev.langchain4j.model.embedding.EmbeddingModel.embed(EmbeddingModel.java:24)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig.faqRagChain(FaqRagConfig.java:47)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig$$SpringCGLIB$$0.CGLIB$faqRagChain$0(<generated>)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:393)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig$$SpringCGLIB$$0.faqRagChain(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:468)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:606)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:577)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:739)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:272)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:369)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.lc.lc4jdemo.Lc4jdemoApplication.main(Lc4jdemoApplication.java:12)
+2025-04-30 14:07:53.707 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+2025-04-30 14:07:53.711 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-30 14:07:53.736 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-30 14:07:53.757 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.lc.lc4jdemo.Lc4jdemoApplication.main(Lc4jdemoApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'faqRagChain' defined in class path resource [com/lc/lc4jdemo/raq/faq/FaqRagConfig.class]: Failed to instantiate [dev.langchain4j.chain.ConversationalRetrievalChain]: Factory method 'faqRagChain' threw exception with message: java.lang.RuntimeException: status code: 502; body: 
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:468)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:606)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:577)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:739)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:272)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:369)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [dev.langchain4j.chain.ConversationalRetrievalChain]: Factory method 'faqRagChain' threw exception with message: java.lang.RuntimeException: status code: 502; body: 
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 35 common frames omitted
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: status code: 502; body: 
+	at dev.langchain4j.internal.RetryUtils$RetryPolicy.withRetry(RetryUtils.java:195)
+	at dev.langchain4j.internal.RetryUtils.withRetry(RetryUtils.java:229)
+	at dev.langchain4j.model.ollama.OllamaEmbeddingModel.embedAll(OllamaEmbeddingModel.java:64)
+	at dev.langchain4j.model.embedding.EmbeddingModel.embed(EmbeddingModel.java:34)
+	at dev.langchain4j.model.embedding.EmbeddingModel.embed(EmbeddingModel.java:24)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig.faqRagChain(FaqRagConfig.java:47)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig$$SpringCGLIB$$0.CGLIB$faqRagChain$0(<generated>)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:393)
+	at com.lc.lc4jdemo.raq.faq.FaqRagConfig$$SpringCGLIB$$0.faqRagChain(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 38 common frames omitted
+Caused by: java.lang.RuntimeException: status code: 502; body: 
+	at dev.langchain4j.model.ollama.OllamaClient.toException(OllamaClient.java:275)
+	at dev.langchain4j.model.ollama.OllamaClient.embed(OllamaClient.java:210)
+	at dev.langchain4j.model.ollama.OllamaEmbeddingModel.lambda$embedAll$0(OllamaEmbeddingModel.java:64)
+	at dev.langchain4j.internal.RetryUtils$RetryPolicy.withRetry(RetryUtils.java:192)
+	... 53 common frames omitted
+2025-04-30 14:39:23.286 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 89725 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 14:39:23.288 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 14:39:24.419 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 14:39:24.439 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 14:39:24.444 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 14:39:24.444 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 14:39:24.523 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 14:39:24.525 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1197 ms
+2025-04-30 14:39:53.510 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+2025-04-30 14:39:53.513 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-30 14:39:53.533 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-30 14:39:53.553 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.lc.lc4jdemo.Lc4jdemoApplication.main(Lc4jdemoApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'knowledgeRagChain' defined in class path resource [com/lc/lc4jdemo/raq/knowledge/KnowledgeRagConfig.class]: Failed to instantiate [dev.langchain4j.chain.ConversationalRetrievalChain]: Factory method 'knowledgeRagChain' threw exception with message: Input length = 1
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:468)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:606)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:577)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:739)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:272)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:369)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [dev.langchain4j.chain.ConversationalRetrievalChain]: Factory method 'knowledgeRagChain' threw exception with message: Input length = 1
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 35 common frames omitted
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1244)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1111)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:734)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:762)
+	at java.base/java.lang.String.newStringNoRepl(String.java:744)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig.knowledgeRagChain(KnowledgeRagConfig.java:35)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig$$SpringCGLIB$$0.CGLIB$knowledgeRagChain$0(<generated>)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:393)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig$$SpringCGLIB$$0.knowledgeRagChain(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 38 common frames omitted
+2025-04-30 14:45:49.240 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 90538 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 14:45:49.242 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 14:45:50.119 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 14:45:50.133 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 14:45:50.136 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 14:45:50.136 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 14:45:50.212 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 14:45:50.213 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 933 ms
+2025-04-30 14:46:18.242 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+2025-04-30 14:46:18.245 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-30 14:46:18.267 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-30 14:46:18.286 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.lc.lc4jdemo.Lc4jdemoApplication.main(Lc4jdemoApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'knowledgeRagChain' defined in class path resource [com/lc/lc4jdemo/raq/knowledge/KnowledgeRagConfig.class]: Failed to instantiate [dev.langchain4j.chain.ConversationalRetrievalChain]: Factory method 'knowledgeRagChain' threw exception with message: '/Users/bing/Downloads/JAVA核心知识点整理.pdf' is not a directory
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:468)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:606)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:577)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:739)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:272)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:369)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [dev.langchain4j.chain.ConversationalRetrievalChain]: Factory method 'knowledgeRagChain' threw exception with message: '/Users/bing/Downloads/JAVA核心知识点整理.pdf' is not a directory
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 35 common frames omitted
+Caused by: java.lang.IllegalArgumentException: '/Users/bing/Downloads/JAVA核心知识点整理.pdf' is not a directory
+	at dev.langchain4j.internal.Exceptions.illegalArgument(Exceptions.java:19)
+	at dev.langchain4j.data.document.loader.FileSystemDocumentLoader.loadDocuments(FileSystemDocumentLoader.java:122)
+	at dev.langchain4j.data.document.loader.FileSystemDocumentLoader.loadDocuments(FileSystemDocumentLoader.java:146)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig.knowledgeRagChain(KnowledgeRagConfig.java:42)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig$$SpringCGLIB$$0.CGLIB$knowledgeRagChain$0(<generated>)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:393)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig$$SpringCGLIB$$0.knowledgeRagChain(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 38 common frames omitted
+2025-04-30 14:50:03.950 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 91085 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 14:50:03.952 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 14:50:04.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 14:50:04.834 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 14:50:04.837 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 14:50:04.837 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 14:50:04.904 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 14:50:04.906 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 915 ms
+2025-04-30 14:50:11.215 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+2025-04-30 14:50:11.217 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-30 14:50:11.234 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-30 14:50:11.251 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.lc.lc4jdemo.Lc4jdemoApplication.main(Lc4jdemoApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'knowledgeRagChain' defined in class path resource [com/lc/lc4jdemo/raq/knowledge/KnowledgeRagConfig.class]: Failed to instantiate [dev.langchain4j.chain.ConversationalRetrievalChain]: Factory method 'knowledgeRagChain' threw exception with message: '/Users/bing/Downloads/JAVA核心知识点整理.pdf' is not a directory
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:468)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:606)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:577)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:739)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:272)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:369)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [dev.langchain4j.chain.ConversationalRetrievalChain]: Factory method 'knowledgeRagChain' threw exception with message: '/Users/bing/Downloads/JAVA核心知识点整理.pdf' is not a directory
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 35 common frames omitted
+Caused by: java.lang.IllegalArgumentException: '/Users/bing/Downloads/JAVA核心知识点整理.pdf' is not a directory
+	at dev.langchain4j.internal.Exceptions.illegalArgument(Exceptions.java:19)
+	at dev.langchain4j.data.document.loader.FileSystemDocumentLoader.loadDocuments(FileSystemDocumentLoader.java:122)
+	at dev.langchain4j.data.document.loader.FileSystemDocumentLoader.loadDocuments(FileSystemDocumentLoader.java:146)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig.knowledgeRagChain(KnowledgeRagConfig.java:42)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig$$SpringCGLIB$$0.CGLIB$knowledgeRagChain$0(<generated>)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:393)
+	at com.lc.lc4jdemo.raq.knowledge.KnowledgeRagConfig$$SpringCGLIB$$0.knowledgeRagChain(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 38 common frames omitted
+2025-04-30 14:50:16.625 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 91115 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 14:50:16.628 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 14:50:17.590 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 14:50:17.606 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 14:50:17.609 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 14:50:17.609 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 14:50:17.695 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 14:50:17.697 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1007 ms
+2025-04-30 14:51:37.231 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AIController': Injection of resource dependencies failed
+2025-04-30 14:51:37.235 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-30 14:51:37.256 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-30 14:53:45.439 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Starting Lc4jdemoApplication using Java 17.0.9 with PID 91555 (/Users/bing/code/lc4jdemo/target/classes started by bing in /Users/bing/code/lc4jdemo)
+2025-04-30 14:53:45.441 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 14:53:46.367 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 14:53:46.379 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 14:53:46.381 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 14:53:46.381 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 14:53:46.442 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 14:53:46.443 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 958 ms
+2025-04-30 14:53:59.619 [main] WARN  o.apache.pdfbox.pdmodel.font.PDFont - Invalid ToUnicode CMap in font NKINIP+Wingdings-Regular
+2025-04-30 14:53:59.619 [main] WARN  o.apache.pdfbox.pdmodel.font.PDFont - Using predefined identity CMap instead
+2025-04-30 14:54:00.264 [main] WARN  o.apache.pdfbox.pdmodel.font.PDFont - Invalid ToUnicode CMap in font PYBPYX+SymbolMT
+2025-04-30 14:54:00.264 [main] WARN  o.apache.pdfbox.pdmodel.font.PDFont - Using predefined identity CMap instead
+2025-04-30 14:55:41.032 [main] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 14:55:44.424 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-30 14:55:44.448 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-30 14:55:44.459 [main] INFO  com.lc.lc4jdemo.Lc4jdemoApplication - Started Lc4jdemoApplication in 119.39 seconds (process running for 120.023)
+2025-04-30 14:55:44.465 [scheduling-1] INFO  c.l.l.r.m.DynamicPromptTemplateProvider - reload prompt success prompt path /Users/bing/Documents/msg_pool_prompt.md
+2025-04-30 14:55:52.728 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-30 14:55:52.728 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-30 14:55:52.730 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-30 15:10:27.280 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-30 15:10:27.291 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
