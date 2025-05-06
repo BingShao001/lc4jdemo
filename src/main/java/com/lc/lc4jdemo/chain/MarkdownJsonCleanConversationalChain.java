@@ -1,4 +1,4 @@
-package com.lc.lc4jdemo.config;
+package com.lc.lc4jdemo.chain;
 
 
 public class MarkdownJsonCleanConversationalChain {

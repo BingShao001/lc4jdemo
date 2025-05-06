@@ -1,7 +1,6 @@
 package com.lc.lc4jdemo.controller;
 
-import com.lc.lc4jdemo.config.MarkdownJsonCleanConversationalChain;
-import com.lc.lc4jdemo.config.ThinkCleanedConversationalChain;
+import com.lc.lc4jdemo.chain.MarkdownJsonCleanConversationalChain;
 import dev.langchain4j.chain.ConversationalRetrievalChain;
 import dev.langchain4j.model.ollama.OllamaChatModel;
 import jakarta.annotation.Resource;

@@ -1,7 +1,7 @@
 package com.lc.lc4jdemo.raq.msgpool;
 
-import com.lc.lc4jdemo.config.MarkdownJsonCleanConversationalChain;
-import com.lc.lc4jdemo.config.ThinkCleanedConversationalChain;
+import com.lc.lc4jdemo.chain.MarkdownJsonCleanConversationalChain;
+import com.lc.lc4jdemo.chain.ThinkCleanedConversationalChain;
 import dev.langchain4j.chain.ConversationalRetrievalChain;
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.memory.ChatMemory;
