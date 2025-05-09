@@ -6,6 +6,8 @@ import dev.langchain4j.data.document.DocumentSplitter;
 import dev.langchain4j.data.document.loader.FileSystemDocumentLoader;
 import dev.langchain4j.data.document.splitter.DocumentSplitters;
 import dev.langchain4j.data.segment.TextSegment;
+import dev.langchain4j.memory.ChatMemory;
+import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.ollama.OllamaChatModel;
 import dev.langchain4j.model.ollama.OllamaEmbeddingModel;
 import dev.langchain4j.rag.content.retriever.ContentRetriever;
@@ -26,7 +28,7 @@ import java.util.List;
 
 @Configuration
 public class KnowledgeRagConfig {
-    @Value("${pdf.path:/Users/bing/Downloads/JAVA核心知识点整理.pdf}")
+    @Value("${pdf.path:/Users/bing/Downloads/JAVA核心知识点整理1.pdf}")
     private String pdfPath;
     @Bean
     public ConversationalRetrievalChain knowledgeRagChain(OllamaChatModel ollamaChatModel, OllamaEmbeddingModel ollamaEmbeddingModel) throws IOException {
@@ -57,7 +59,13 @@ public class KnowledgeRagConfig {
         // 7. 创建 ContentRetriever，用于从嵌入存储中检索相关内容
         ContentRetriever contentRetriever = EmbeddingStoreContentRetriever.builder().embeddingStore(embeddingStore).embeddingModel(ollamaEmbeddingModel).maxResults(3) // 设置最大返回结果数为 3
                 .build();
+        // 8. 构建 ChatMemory (可选，聊天记忆，保留上下文)
+        ChatMemory chatMemory = MessageWindowChatMemory.withMaxMessages(10);
         // 9. 构建 ConversationalRetrievalChain
-        return ConversationalRetrievalChain.builder().chatLanguageModel(ollamaChatModel).contentRetriever(contentRetriever).build();
+        return ConversationalRetrievalChain.builder()
+                .chatLanguageModel(ollamaChatModel)
+                .chatMemory(chatMemory)
+                .contentRetriever(contentRetriever)
+                .build();
     }
 }

@@ -7,6 +7,8 @@ import dev.langchain4j.data.document.DocumentSplitter;
 import dev.langchain4j.data.document.loader.FileSystemDocumentLoader;
 import dev.langchain4j.data.document.splitter.DocumentSplitters;
 import dev.langchain4j.data.segment.TextSegment;
+import dev.langchain4j.memory.ChatMemory;
+import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.ollama.OllamaChatModel;
 import dev.langchain4j.model.ollama.OllamaEmbeddingModel;
 import dev.langchain4j.rag.content.retriever.ContentRetriever;
@@ -20,12 +22,26 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 @Configuration
 public class FaqRagConfig {
+    private final Map<String, ChatMemory> memoryMap = new ConcurrentHashMap<>();
 
     @Bean
-    public ConversationalRetrievalChain faqRagChain(OllamaChatModel ollamaChatModel, OllamaEmbeddingModel ollamaEmbeddingModel) throws IOException {
+    public ConversationalRetrievalChain faqRagChain(OllamaChatModel ollamaChatModel, OllamaEmbeddingModel ollamaEmbeddingModel,ContentRetriever contentRetriever) throws IOException {
+        ChatMemory chatMemory = MessageWindowChatMemory.withMaxMessages(10);
+
+        // 9. 构建 ConversationalRetrievalChain
+        return ConversationalRetrievalChain.builder()
+                .chatLanguageModel(ollamaChatModel)
+                .chatMemory(chatMemory)
+                .contentRetriever(contentRetriever)
+                .build();
+    }
+
+    public ContentRetriever contentRetriever(OllamaEmbeddingModel ollamaEmbeddingModel) throws IOException {
         // 1. 初始化文档分段列表
         List<TextSegment> segments = new ArrayList<>();
 
@@ -48,9 +64,11 @@ public class FaqRagConfig {
         }
 
         // 7. 创建 ContentRetriever，用于从嵌入存储中检索相关内容
-        ContentRetriever contentRetriever = EmbeddingStoreContentRetriever.builder().embeddingStore(embeddingStore).embeddingModel(ollamaEmbeddingModel).maxResults(3) // 设置最大返回结果数为 3
+        ContentRetriever contentRetriever = EmbeddingStoreContentRetriever.builder()
+                .embeddingStore(embeddingStore)
+                .embeddingModel(ollamaEmbeddingModel)
+                .maxResults(3) // 设置最大返回结果数为 3
                 .build();
-        // 9. 构建 ConversationalRetrievalChain
-        return ConversationalRetrievalChain.builder().chatLanguageModel(ollamaChatModel).contentRetriever(contentRetriever).build();
+        return contentRetriever;
     }
 }
