@@ -30,18 +30,18 @@ public class FaqRagConfig {
     private final Map<String, ChatMemory> memoryMap = new ConcurrentHashMap<>();
 
     @Bean
-    public ConversationalRetrievalChain faqRagChain(OllamaChatModel ollamaChatModel, OllamaEmbeddingModel ollamaEmbeddingModel,ContentRetriever contentRetriever) throws IOException {
+    public ConversationalRetrievalChain faqRagChain(OllamaChatModel ollamaChatModel,ContentRetriever faqContentRetriever) throws IOException {
         ChatMemory chatMemory = MessageWindowChatMemory.withMaxMessages(10);
 
         // 9. 构建 ConversationalRetrievalChain
         return ConversationalRetrievalChain.builder()
                 .chatLanguageModel(ollamaChatModel)
                 .chatMemory(chatMemory)
-                .contentRetriever(contentRetriever)
+                .contentRetriever(faqContentRetriever)
                 .build();
     }
-
-    public ContentRetriever contentRetriever(OllamaEmbeddingModel ollamaEmbeddingModel) throws IOException {
+    @Bean
+    public ContentRetriever faqContentRetriever(OllamaEmbeddingModel ollamaEmbeddingModel) throws IOException {
         // 1. 初始化文档分段列表
         List<TextSegment> segments = new ArrayList<>();
 
@@ -67,7 +67,8 @@ public class FaqRagConfig {
         ContentRetriever contentRetriever = EmbeddingStoreContentRetriever.builder()
                 .embeddingStore(embeddingStore)
                 .embeddingModel(ollamaEmbeddingModel)
-                .maxResults(3) // 设置最大返回结果数为 3
+                .minScore(0.7)
+                .maxResults(1) // 设置最大返回结果数为 3
                 .build();
         return contentRetriever;
     }

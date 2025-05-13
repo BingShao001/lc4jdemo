@@ -15,7 +15,7 @@ public class OllamaConfig {
     @Value("${model-name:deepseek-r1:32b}")
     private String modelName;
 
-
+    //大模型
     @Bean
     public OllamaChatModel ollamaChatModel() {
         return OllamaChatModel.builder()
@@ -24,7 +24,7 @@ public class OllamaConfig {
                 .temperature(0.3)
                 .build();
     }
-
+    //向量模型
     @Bean
     public OllamaEmbeddingModel ollamaEmbeddingModel() {
         return OllamaEmbeddingModel.builder()

@@ -41,6 +41,8 @@ public class AIController {
 
 
 
+
+
     @GetMapping(value = "/streaming_ask",produces = "text/stream;charset=utf-8")
     public Flux<String> streamingAsk(String question) {
 

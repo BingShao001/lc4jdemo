@@ -20,6 +20,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
@@ -44,17 +45,16 @@ public class MemoryConfig {
                             return new ArrayList<>();
                         }
 
-                        Set<String> validToolCallIds = new HashSet<>();
-                        // 提取所有有效的 tool_call_id
-                        for (ChatMessage msg : messages) {
-                            if (msg instanceof AiMessage aiMsg && aiMsg.hasToolExecutionRequests()) {
-                                for (ToolExecutionRequest call : aiMsg.toolExecutionRequests()) {
-                                    validToolCallIds.add(call.id());
-                                }
-                            }
-                        }
+                        // 提取所有历史 toolCallId（包含旧 AiMessage 发出的）
+                        Set<String> validToolCallIds = messages.stream()
+                                .filter(msg -> msg instanceof AiMessage)
+                                .map(msg -> ((AiMessage) msg).toolExecutionRequests())
+                                .filter(Objects::nonNull)
+                                .flatMap(List::stream)
+                                .map(ToolExecutionRequest::id)
+                                .collect(Collectors.toSet());
 
-                        // 过滤非法的 ToolMessage
+                        // 清理孤立的 ToolMessage（未被任何 AiMessage 请求）
                         List<ChatMessage> cleanedMessages = messages.stream().filter(msg -> {
                             if (msg instanceof ToolExecutionResultMessage toolMsg) {
                                 boolean isValid = validToolCallIds.contains(toolMsg.id());
